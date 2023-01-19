@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+
+body {
+  font-family: Poppins, "Helvetica Neue", Helvetica, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title-bar {
+  flex-direction: column;
+  line-height: 10px;
+}
+
+li {
+  display: inline-block;
+  margin: 15px;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(255, 0, 0);
+  transition: 0.2s all;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+aside {
+  line-height: 1px;
+}
+
+.aside-title {
+  font-family: "Lexend", sans-serif;
+  flex-direction: column;
+  line-height: 1px;
+}
+
+aside h1 {
+  font-size: 85px;
+}
+
+aside h2 {
+  font-size: 70px;
+}
+
+#last-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 0px;
+}
+
+#link-final {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#link-final a {
+  margin: 5px;
+}
+
+#maps {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+}
